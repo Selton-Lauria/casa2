@@ -1,0 +1,14 @@
+ * {
+    background-color: black;
+    color: white;
+}
+body {
+    cursor: wait;
+}
+body p {
+    margin: auto;
+    padding: 0px 15px;
+    white-space: normal;
+    word-wrap:break-word;
+    text-align: left;
+}
