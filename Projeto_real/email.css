@@ -93,3 +93,15 @@ html{
 .dashboard button:hover{
     background-color: lightgray;
 }
+.lixopng {
+    padding-left: 30px;
+}
+.singout {
+    text-decoration: none;
+    font-size: 30px;
+}
+.singout:hover {
+    background-color: red;
+    color: white;
+    padding: 15px;
+}

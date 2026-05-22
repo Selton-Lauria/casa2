@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Inicial</title>
+    <style>
+        body {
+            background-image: linear-gradient(to bottom, gray, white, gray);
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 600px;
+        }
+        div img {
+            padding: 5px 15px;
+        }
+        .bloco {
+            min-width: 50px;
+            min-height: 50px;
+        }
+        .segunda {
+            position: absolute;
+            padding-top: 190px;
+            padding-right: 15px;
+        }
+        .segunda input {
+            font-size: 12px;
+        }
+        footer {
+            padding: 50px 0px;
+            color: rgba(209, 209, 209, 0.514);
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bloco">
+            <img src="imagens/icon.png" alt="usuário">
+        </div>
+        <div class="segunda">
+            Usuário: <input type="text" name="txtsenha" id="txtsenha" autocomplete="off">
+            <input type="button" value="Entrar" onclick="ver_senha()">
+        </div>
+    </div>
+    <footer>
+        <p>senha = arceus</p>
+    </footer>
+    <script src="puzzles.js"></script>
+</body>
+</html>
