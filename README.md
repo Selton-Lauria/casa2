@@ -1,1 +1,4 @@
-# casa2
+# Casa2
+
+## Status do Projeto
+Em desenvolvimento!!!
