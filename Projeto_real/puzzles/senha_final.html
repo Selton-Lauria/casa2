@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senhas</title>
+    <link rel="stylesheet" href="puzzles.css">
+    <style>
+        body {
+            background-image: linear-gradient(to right, rgba(255, 255, 0, 0.23), gray, rgba(255, 255, 0, 0.23));
+        }
+        a:hover {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Digite a senha para entrar no e-mail.</h1>
+        Senha: <input type="text" name="txtsenha" id="txtsenha" autocomplete="off">
+        <input type="button" value="Submit" onclick="verificar_5()">   
+        <footer>obs: sempre em letras minúsculas</footer> 
+        <div>
+            <p><strong>Apenas luz</strong></p>
+            <a href="luz.html">puzzle</a>
+        </div>
+    </div>
+    <script src="../puzzles.js"></script>
+</body>
+</html>
