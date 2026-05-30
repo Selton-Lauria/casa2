@@ -109,9 +109,13 @@ html{
     color: white;
     padding: 15px;
 }
-.img {
+.imgex1 {
     padding: 10px 30px;
     width: 300px;
+}
+.imgex2 {
+    padding: 10px 30px;
+    width: 160px;
 }
 .terror {
     font-family: 'terror';
