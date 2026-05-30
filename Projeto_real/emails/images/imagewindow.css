@@ -1,0 +1,27 @@
+        html{
+            background-color: black;
+            user-select: none;
+            overflow: hidden;
+        }
+        img{
+            display: grid;
+            background-color: white;
+            grid-template-columns: auto;
+            width: 65%;
+            max-width: 60%;
+            margin: auto;
+            margin-left: 10%;
+            margin-top: 5%;     
+        }
+        a{
+            float: right;
+            text-decoration: none;
+            color: lightgray;
+            font-size: 30px;
+            margin: 0;
+            padding: 0;
+        }
+        a:hover{
+            background-color: red;
+            color: white;
+        }
