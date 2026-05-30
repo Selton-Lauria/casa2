@@ -1,0 +1,57 @@
+html, body{
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    -ms-overflow-style: none;
+}
+.casa2title{
+    font-size: 70px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 20%;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    animation: changeColorOnScroll linear both;
+    animation-timeline: scroll();
+    animation-range: 0% 70%;
+}
+#c, #a, #s, #a2{
+    transition: 1s ease;
+}
+#dois{
+    transition: 1s ease;
+}
+#c:hover, #a:hover, #s:hover, #a2:hover{
+    transition: 1s ease;
+    font-size: 180px;
+    text-shadow:blue 1px -1px, red -1px -1px;
+}
+#dois:hover{
+    transition: 5s ease-in-out;
+    font-size: 600px;
+    text-shadow:blue 1px -1px, red -1px -1px;
+}
+.botao {
+    margin-left: 700px;
+    padding: 20px 30px;
+    background-image: linear-gradient(to top, gray, white, gray);
+    border-radius: 10px;
+}
+.botao:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to top, black, gray, black);
+}

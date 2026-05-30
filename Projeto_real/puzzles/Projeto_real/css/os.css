@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    background-image: url('../imagens/sample4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.e-mail {
+    padding: 30px;
+    display: inline-block;
+    position: relative;
+}
+picture {
+    user-select: none;
+}
+picture figcaption {
+    padding-left: 25px;
+    color: rgb(94, 94, 94);
+}
+.lixeira {
+    padding: 31px;
+    display: block;
+    position: relative;
+    max-width: 50px;
+}
+.botao {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    opacity: 0%;
+}
+.e-mail .botao {
+    top: 45%;
+    left: 50%;
+    width: 83px;
+    height: 65px;
+}
+.lixeira img {
+    padding-left: 5px;
+}
+.lixeira .botao {
+    top: 47%;
+    left: 65%;
+    width: 77px;
+    height: 87px;
+}
+button:hover {
+    cursor: pointer;
+}
+.holder{
+display: grid;
+grid-template-columns: auto 100%;
+}

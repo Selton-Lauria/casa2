@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senhas</title>
+    <link rel="stylesheet" href="puzzles.css">
+    <link rel="shortcut icon" href="../favicon/escuridao.ico" type="image/x-icon">
+    <style>
+        body {
+            background-image: linear-gradient(to right, black, rgb(71, 4, 4), black, rgb(67, 5, 5), black);
+        }
+        a:hover {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Digite a senha para entrar no e-mail.</h1>
+        Senha: <input type="text" name="txtsenha" id="txtsenha" autocomplete="off">
+        <input type="button" value="Submit" onclick="verificar_1()">   
+        <footer>obs: sempre em letras minúsculas</footer> 
+        <p>Se não lembrar, descubra no puzzle abaixo!</p>
+        <div>
+            <p><strong>Onde ha escuridão, há luz.</strong></p>
+            <a href="escuridão.html">puzzle</a>
+        </div>
+        <div class="voltar">
+            <a href="../email.html">Voltar para emails</a>
+        </div>
+    </div>
+    <script src="../puzzles.js"></script>
+</body>
+</html>
