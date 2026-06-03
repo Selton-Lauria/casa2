@@ -1,4 +1,7 @@
 # Casa2
 
 ## Status do Projeto
-Em desenvolvimento!!!
+#Concluído!
+
+#Criadores:
+Juan Pablo, Lucas Miguel, Luiz Henrique, Selton Lauria
