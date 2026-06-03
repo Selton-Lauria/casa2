@@ -4,4 +4,7 @@
 Concluído!
 
 # Criadores:
-Juan Pablo, Lucas Miguel, Luiz Henrique, Selton Lauria
+[Juan Pablo] (github.com/Juan-Pablo-taime) 
+Lucas Miguel: Lucasmigurl
+Luiz Henrique: 
+Selton Lauria:
