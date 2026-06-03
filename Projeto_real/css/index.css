@@ -25,9 +25,6 @@ html{
 }
 body{
     background-color: black;
-    animation: changeColorOnScroll linear both;
-    animation-timeline: scroll();
-    animation-range: 0% 70%;
 }
 #c, #a, #s, #a2{
     transition: 1s ease;
@@ -44,14 +41,4 @@ body{
     transition: 5s ease-in-out;
     font-size: 600px;
     text-shadow:blue 1px -1px, red -1px -1px;
-}
-.botao {
-    margin-left: 700px;
-    padding: 20px 30px;
-    background-image: linear-gradient(to top, gray, white, gray);
-    border-radius: 10px;
-}
-.botao:hover {
-    cursor: pointer;
-    background-image: linear-gradient(to top, black, gray, black);
 }

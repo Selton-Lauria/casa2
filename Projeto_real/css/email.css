@@ -4,10 +4,10 @@
 }
 html{
     background-image: url('sample4.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: cover;                 /* deixa o background cobrindo toda a tela */
+    background-position: center;            /* deixa o background no centro da tela */
+    background-repeat: no-repeat;           /* faz o background não se repetir */
+    background-attachment: fixed;           /* deixa o background fixado na tela, e não se movendo quando a tela é scrollada */
     height: 100vh;
 }
 .email{

@@ -14,7 +14,7 @@ body {
     position: relative;
 }
 picture {
-    user-select: none;
+    user-select: none; /* não deixa o usuário "selecionar" o elemento */
 }
 picture figcaption {
     padding-left: 25px;
@@ -27,7 +27,7 @@ picture figcaption {
     max-width: 50px;
 }
 .botao {
-    position: absolute;
+    position: absolute;              /* a posição do botão não é afetada por nenhum outro elemento */
     transform: translate(-50%, -50%);
     opacity: 0%;
 }
@@ -47,9 +47,9 @@ picture figcaption {
     height: 87px;
 }
 button:hover {
-    cursor: pointer;
+    cursor: pointer; /* deixa o cursor com aparência de selecionavel quando o mouse passa por cima do elemento */
 }
 .holder{
-display: grid;
-grid-template-columns: auto 100%;
+    display: grid;
+    grid-template-columns: auto 100%;
 }
