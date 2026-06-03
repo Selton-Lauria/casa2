@@ -4,7 +4,7 @@
 Concluído!
 
 # Criadores:
-[Juan Pablo](github.com/Juan-Pablo-taime) 
-Lucas Miguel: Lucasmigurl
-Luiz Henrique: 
-Selton Lauria:
+[Juan Pablo](https://github.com/Juan-Pablo-taime), 
+[Lucas Miguel](https://github.com/Lucasmigurl)
+[Luiz Henrique](https://github.com/luizhesgs) 
+[Selton Lauria](https://github.com/Selton-Lauria)
